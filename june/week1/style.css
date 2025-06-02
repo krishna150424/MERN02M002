@@ -1,0 +1,59 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+#head2 {
+    background-color: blue;
+}
+
+.head3 {
+    background-color: rgb(255, 0, 238);
+}
+
+h4,
+h5,
+h6 {
+    background-color: rgb(227, 92, 229);
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 126, 126);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YIGV8GTRHiW_KACLMhhi9fEq2T5BDQcEyA&s");
+    background-position: center;
+    background-size: contain;
+}
+
+div:hover {
+    background-color: rgb(222, 157, 100);
+}
+
+div:active {
+    background-color: green;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul li:nth-child(2) {
+    background-color: red;
+}
+
+ul li:nth-child(n+3) {
+    background-color: rgb(68, 240, 20);
+}
+
+p {
+    color: rgb(9, 246, 246);
+}
