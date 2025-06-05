@@ -22,6 +22,7 @@ body, html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 400px;
     color: white;
+    backdrop-filter: blur(10px);
 }
 
 .login-form h1 {
@@ -52,7 +53,7 @@ body, html {
 .login-form button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #d810d8;
+    background-color: #e6a8e6;
     color: white;
     border: none;
     border-radius: 5px;
