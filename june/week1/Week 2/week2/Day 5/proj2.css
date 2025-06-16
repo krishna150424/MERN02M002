@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 24px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #101010;
+}
+
+.nav-buttons a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.nav-buttons .book-demo {
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.nav-buttons .get-started {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #fdfdfd;
+}
+
+.hero .welcome {
+  color: #0f0f0f;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero .subtext {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.hero-buttons a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.hero-buttons .book-demo {
+  border: 1px solid #aaa;
+  color: #333;
+}
+
+.hero-buttons .get-started {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Features Bar */
+.features-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.feature i {
+  font-size: 16px;
+}
+
+.image-section img {
+  height: 100vh;
+  width: 500vw;
+  max-width: 100%;
+  
+ /* align-items: center;
+  background-size: cover;
+  box-sizing: border-box;o
+  /*display: block;
+  margin: 2rem auto;
+  border-radius: 10px;
+  background-image:cover;
+  background-image: center;*/
+  object-fit: cover;
+}

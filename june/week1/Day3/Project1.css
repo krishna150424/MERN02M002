@@ -302,25 +302,34 @@ body {
 
  .blog-image img {
   width: 400px;
-  /* max-width: 600px; */
+  max-width: 600px; 
   flex:1;
+  
 } 
 
 .blog-text {
   flex: 1;
-  min-width: 200px;
-  margin-left: 350px;
+  min-width: 600px;
+  /*margin-left: 0;*/
   text-align: start;
+  /*margin: 0 auto;*/
 }
+.blog-text h2 span {
+  display: block;
+}
+
+
 
  .blog-text h2 {
   font-size: 20px; 
   font-weight: bold;
   margin-bottom: 20px;
-  max-width: 600px;
-  line-height: 1.0rem;
-  /* text-align: start;  */
-  box-sizing: border-box;
+  /*max-width: none;*/
+  line-height: 2.0rem;
+   text-align: start;  
+  /*box-sizing: border-box;
+  width: 100%;*/
+  margin-top: 0;
 } 
 
 .blog-text p {
@@ -328,7 +337,9 @@ body {
   color: #555;
   margin-bottom: 25px;
   line-height: 1.6;
-  /* text-align: start; */
+  text-align: start; 
+  margin: 0;
+  padding: 0;
 }
 
 .learn-btn {
@@ -337,9 +348,10 @@ body {
   background-color: #4CAF50;
   color: white;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 5px;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 20px;
+  text-decoration: none;
 }
 
 .learn-btn:hover {
