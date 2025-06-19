@@ -116,6 +116,9 @@ body {
   background-color: white;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
+  animation: slideLeft  10s linear infinite;
+  font-size: 24px;
+  
 }
 
 .feature {
